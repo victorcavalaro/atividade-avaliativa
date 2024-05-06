@@ -1,4 +1,7 @@
-// Valida o nome -> foi utilizado esse metodo para conseguir fazer a validação do nome no padrão regexNome, tendo como parametro a validação de não utiliza numero alertando na tela do usuario 
+// explicação da validação Regex
+
+
+        // Valida o nome -> foi utilizado esse metodo para conseguir fazer a validação do nome no padrão regexNome, tendo como parametro a validação de não utiliza numero alertando na tela do usuario 
         if (!regexNome.test(nome)) {
             alert('Nome inválido.');
             return;
